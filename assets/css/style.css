@@ -21,5 +21,18 @@
   --body-color: hsl(250, 60%, 99%);
   --container-color: #FFF;
 
-  
+  /*=============== FONT AND TYPOGRAPHY =============*/
+  --body-font: "Poppins", sans-serif;
+
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*=============== FONT WEIGHT =============*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
 }
