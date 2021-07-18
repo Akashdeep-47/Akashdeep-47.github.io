@@ -1,66 +1,104 @@
 /*=============== GOOGLE FONTS =============*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*=============== VARIABLEs CSS =============*/
-:root{
-  /* 1rem = 16px */
-  --header-height: 3rem;
 
-  /*=============== COLORS =============*/
-  --hue-color: ;
+:root {
+    /* 1rem = 16px */
+    --header-height: 3rem;
 
-  /* HSL color mode */
-  --first-color: hsl(250, 69%, 61%);
-  --first-color-second: hsl(250, 69%, 61%);
-  --first-color-second: hsl(250, 57%, 53%);
-  --first-color-second: hsl(250, 92%, 85%);
-  --title-color: hsl(250, 8%, 15%);
-  --text-color: hsl(250, 8%, 45%);
-  --text-color-light: hsl(250, 8%, 65%);
-  --input-color: hsl(250, 70%, 96%);
-  --body-color: hsl(250, 60%, 99%);
-  --container-color: #FFF;
+    /*=============== COLORS =============*/
+    --hue-color: ;
 
-  /*=============== FONT AND TYPOGRAPHY =============*/
-  --body-font: "Poppins", sans-serif;
+    /* HSL color mode */
+    --first-color: hsl(250, 69%, 61%);
+    --first-color-second: hsl(250, 69%, 61%);
+    --first-color-second: hsl(250, 57%, 53%);
+    --first-color-second: hsl(250, 92%, 85%);
+    --title-color: hsl(250, 8%, 15%);
+    --text-color: hsl(250, 8%, 45%);
+    --text-color-light: hsl(250, 8%, 65%);
+    --input-color: hsl(250, 70%, 96%);
+    --body-color: hsl(250, 60%, 99%);
+    --container-color: #FFF;
 
-  --big-font-size: 2rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1.125rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+    /*=============== FONT AND TYPOGRAPHY =============*/
+    --body-font: "Poppins", sans-serif;
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
 
-  /*=============== FONT WEIGHT =============*/
-  --font-medium: 500;
-  --font-semi-bold: 600;
+    /*=============== FONT WEIGHT =============*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
 
-  /*=============== FONT WEIGHT =============*/
-  --mb-0-25: .25rem;
-  --mb-0-5: .5rem;
-  --mb-0-75: .75rem;
-  --mb-1: 1rem;
-  --mb-1-5: 1.5rem;
-  --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
-  --mb-3: 3rem;
+    /*=============== FONT WEIGHT =============*/
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
 
-  /*=============== z INDEX =============*/
-  --z-tooltip: 10;
-  --z-fixed: 100;
-  --z-modal: 1000;
+    /*=============== z INDEX =============*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
 
-  /* FONT SIZE FOR LARGE DEVICES */
-  @media screen and (min-width: 968px) {
-    :root {
-      --big-font-size: 3rem;
-      --h1-font-size: 2.25rem;
-      --h2-font-size: 1.5rem;
-      --h3-font-size: 1.25rem;
-      --normal-font-size: 1rem;
-      --small-font-size: .875rem;
-      --smaller-font-size: .813rem;
+    /* FONT SIZE FOR LARGE DEVICES */
+    @media screen and (min-width: 968px) {
+         :root {
+            --big-font-size: 3rem;
+            --h1-font-size: 2.25rem;
+            --h2-font-size: 1.5rem;
+            --h3-font-size: 1.25rem;
+            --normal-font-size: 1rem;
+            --small-font-size: .875rem;
+            --smaller-font-size: .813rem;
+        }
     }
-  }
+
+    /*=============== FONT WEIGHT =============*/
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0 0 var(--header-height) 0;
+        font-family: var(--body-font);
+        font-size: var(--normal-font-size);
+        background-color: var(--body-color);
+        color: var(--text-color);
+    }
+
+    h1, h2, h3, h4 {
+        color: var(--title-color);
+        font-weight: var(--font-semi-bold);
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    
+    img {
+        max-width: 100;
+        height: auto;
+    }
 }
