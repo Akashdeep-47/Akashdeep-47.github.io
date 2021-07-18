@@ -7,10 +7,8 @@
 :root {
     /* 1rem = 16px */
     --header-height: 3rem;
-
     /*=============== COLORS =============*/
     --hue-color: ;
-
     /* HSL color mode */
     --first-color: hsl(250, 69%, 61%);
     --first-color-second: hsl(250, 69%, 61%);
@@ -22,7 +20,6 @@
     --input-color: hsl(250, 70%, 96%);
     --body-color: hsl(250, 60%, 99%);
     --container-color: #FFF;
-
     /*=============== FONT AND TYPOGRAPHY =============*/
     --body-font: "Poppins", sans-serif;
     --big-font-size: 2rem;
@@ -32,11 +29,9 @@
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
-
     /*=============== FONT WEIGHT =============*/
     --font-medium: 500;
     --font-semi-bold: 600;
-
     /*=============== FONT WEIGHT =============*/
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
@@ -46,12 +41,10 @@
     --mb-2: 2rem;
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
-
     /*=============== z INDEX =============*/
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
-
     /* FONT SIZE FOR LARGE DEVICES */
     @media screen and (min-width: 968px) {
          :root {
@@ -64,18 +57,15 @@
             --smaller-font-size: .813rem;
         }
     }
-
     /*=============== FONT WEIGHT =============*/
     * {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
     }
-
     html {
         scroll-behavior: smooth;
     }
-
     body {
         margin: 0 0 var(--header-height) 0;
         font-family: var(--body-font);
@@ -83,22 +73,37 @@
         background-color: var(--body-color);
         color: var(--text-color);
     }
-
-    h1, h2, h3, h4 {
+    h1,
+    h2,
+    h3,
+    h4 {
         color: var(--title-color);
         font-weight: var(--font-semi-bold);
     }
-
     ul {
         list-style: none;
     }
-
     a {
         text-decoration: none;
     }
-    
     img {
         max-width: 100;
         height: auto;
+    }
+    /*=============== RESUABLE CSS CLASSES  =============*/
+    .section {
+        padding: 2rem 0 4rem;
+    }
+    .section_title {
+        font-size: var(--h1-font-size);
+    }
+    .section_subtitle {
+        display: block;
+        font-size: var(--small-font-size);
+        margin-bottom: var(--mb-3);
+    }
+    .section_title,
+    .section_subtitle {
+        text-align: center;
     }
 }
