@@ -123,14 +123,14 @@ img {
   text-align: center;
 }
 
-    /*=============== LAYOUT  =============*/
-    .container {
-        max-width: 768px;
-        margin-left: var(--mb-1-5);
-        margin-right: var(--mb-1-5);
-    }
+/*=============== LAYOUT  =============*/
+.container {
+  max-width: 768px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
 
-    .grid {
-        display: grid;
-        gap: 1.5rem;
-    }
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
