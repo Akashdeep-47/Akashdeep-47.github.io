@@ -1,9 +1,7 @@
-```Forked from https://github.com/varadbhogayata/varadbhogayata.github.io and deployed here.``` 
-
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
-> https://tushar5526.github.io
+> https://Akashdeep-47.github.io
 
 ![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
 ![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/varadbhogayata.github.io)
